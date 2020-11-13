@@ -1,4 +1,4 @@
-#Fri Nov 13 23:03:26 PST 2020
-base.0=/Users/jeffreyabaniel/AndroidStudioProjects/push_subnavigation/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sat Nov 14 00:17:14 PST 2020
+base.0=/Users/jeffreyabaniel/Documents/GitHub/sub-navigator/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

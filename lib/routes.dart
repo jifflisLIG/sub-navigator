@@ -6,11 +6,11 @@ import 'package:push_subnavigation/main_screen.dart';
 import 'package:push_subnavigation/pop_screen.dart';
 import 'package:push_subnavigation/second_screen.dart';
 
+import 'main_screen.dart';
+
 class Routes {
   Routes._();
-
-  static const String SCREEN_INITIAL = '/';
-  static const String SCREEN_MAIN = '/mainScreen';
+  static const String SCREEN_MAIN = '/';
   static const String SCREEN_HOME = '/home_screen';
   static const String SCREEN_SECOND = '/second_screen';
   static const String SCREEN_POP = '/pop_screen';
@@ -65,7 +65,7 @@ class Routes {
         break;
     }
 
-    if (settings.name == SCREEN_INITIAL &&
+    if (settings.name == SCREEN_MAIN &&
         currentSubNavigatorInitialRoute != null) {
       // When current sub-navigator initial route is set,
       // do not display initial route because it is already displayed.
